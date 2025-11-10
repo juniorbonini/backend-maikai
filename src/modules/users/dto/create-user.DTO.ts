@@ -40,9 +40,9 @@ export class createUserDTO {
   @IsString() @IsOptional() insurance?: string;
   @IsArray() @IsOptional() preferredHospital?: string;
   @IsString() @IsOptional() familyIncome?: string;
-  @IsBoolean() photoConsent: boolean;
   @IsString() infoDeclaration: string;
-  @IsBoolean() regulationAccepted: boolean;
+  @IsBoolean() photoConsent: boolean;
   @IsBoolean() authorization: boolean;
   @IsBoolean() responsibleAgree: boolean;
+  @IsBoolean() regulationAccepted: boolean;
 }
